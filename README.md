@@ -22,5 +22,5 @@ To use **Hexafinder**, you need to install the following tools:
 After installing the necessary tools, clone the **Hexafinder** repository:
 
 ```bash
-git clone https://github.com/yourusername/hexafinder.git
+git clone https://github.com/HexShad0w/hexafinder.git
 cd hexafinder
