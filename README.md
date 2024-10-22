@@ -51,6 +51,3 @@ bash
 Copy code
 python3 hexa.py
 Follow the prompts to start the subdomain enumeration process.
-
-Contributing
-If you would like to contribute to Hexafinder, feel free to fork the repository and submit a pull request. Contributions are welcome!
