@@ -1,25 +1,22 @@
-# Hexafinder
+Hexafinder
+Hexafinder is a simple yet powerful tool for automated subdomain enumeration. By integrating Subfinder, Httpx, Katana, and grep, Hexafinder allows users to discover subdomains, scan for live hosts, and sort results—all in one streamlined tool.
 
-**Hexafinder** is a simple yet powerful tool for automated subdomain enumeration. By integrating **Subfinder**, **Httpx**, **Katana**, and **grep**, Hexafinder allows users to discover subdomains, scan for live hosts, and sort results—all in one streamlined tool.
-
-## Features
-
-- Automates subdomain discovery using **Subfinder**
-- Live host scanning with **Httpx**
-- Advanced filtering of results with **Katana**
-- Custom sorting using **grep**
-- Full automation for efficient subdomain enumeration
-
-## Installation
-
+Features
+Automates subdomain discovery using Subfinder
+Live host scanning with Httpx
+Advanced filtering of results with Katana
+Custom sorting using grep
+Full automation for efficient subdomain enumeration
+Installation
 To use Hexafinder, you need to install the following tools and libraries:
 
-### Required Tools
+Required Tools
+Subfinder:
 
-1. **Subfinder**:
-   - Install instructions: [Subfinder GitHub](https://github.com/subfinder/subfinder)
-   ```bash
-   go install github.com/subfinder/subfinder/v2/cmd/subfinder@latest
+Install instructions: Subfinder GitHub
+bash
+Copy code
+go install github.com/subfinder/subfinder/v2/cmd/subfinder@latest
 Httpx:
 
 Install instructions: Httpx GitHub
