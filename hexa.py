@@ -32,7 +32,7 @@ def hex_tool(domain):
 
     subfinder_start = input(Color.GREEN + "Do you want to start Subfinder? y/n: " + Color.RESET)
     if subfinder_start.lower() == "y":
-        subfinder_cmd = f"subfinder -d {domain} > output.txt"
+        subfinder_cmd = f"subfinder -d {domain} -all > output.txt"
         run_subprocess(subfinder_cmd, "Subfinder")
         subprocess.run("cat output.txt >> final.txt", shell=True)
 
